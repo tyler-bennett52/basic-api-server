@@ -1,16 +1,16 @@
-# basic-express-server (LAB 02)
+# basic-express-server (LAB 03)
 
-## Project: Server Deployment Practice... again?
+## Project: Template API buildout?
 
 ### Author: Tyler Bennett
 
 ### Problem Domain  
 
-Basic API Server where we write some middleware and practice writing tests... but like again.
+Basic API Server template.
 
 ### Links and Resources
 
-- [ci/cd](https://github.com/tyler-bennett52/basic-express-server/actions) (GitHub Actions)
+- [ci/cd](https://github.com/tyler-bennett52/basic-api-server/actions) (GitHub Actions)
 - [back-end server url](https://basic-express-server-eulv.onrender.com) (when applicable)
 
 ### Setup
