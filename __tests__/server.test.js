@@ -61,7 +61,7 @@ describe('Server', () => {
     expect(response.body.eyeColor).toEqual('blue');
   });
 
-  it('Update record using PUT', async () => {
+  it('Delete a record using DELETE', async () => {
     const mockHuman = {heightInches: 72, massKG: 100, eyeColor: 'brown'};
     await mockRequest.post('/human').send(mockHuman);
     const response = await mockRequest.delete('/human/3');
