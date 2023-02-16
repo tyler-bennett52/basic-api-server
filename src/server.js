@@ -2,14 +2,19 @@
 
 const express = require('express');
 const app = express();
+require('dotenv').config();
 const logger = require('./middleware/logger');
 const validator = require('./middleware/validator');
 const notFoundHandler = require('./error-handlers/404');
 const errorHandler = require('./error-handlers/500');
-require('dotenv').config();
+const humanRouter = require('./routes/humanBeing');
+const vehicleRouter = require('./routes/automobile')
 const PORT = process.env.PORT || 3003;
 
+app.use(express.json());
 app.use(logger);
+app.use(humanRouter);
+app.use(vehicleRouter);
 
 app.get('/', (req, res) => {
   res.status(200).send('Speak friend and enter');
@@ -32,4 +37,4 @@ const start = () => {
 };
 
 
-module.exports = {start, app};
+module.exports = { start, app };
