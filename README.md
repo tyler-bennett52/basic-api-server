@@ -11,31 +11,30 @@ Basic API Server template.
 ### Links and Resources
 
 - [ci/cd](https://github.com/tyler-bennett52/basic-api-server/actions) (GitHub Actions)
-- [back-end server url](https://basic-express-server-eulv.onrender.com) (when applicable)
+- [back-end server url](https://basic-api-server-hjih.onrender.com) (when applicable)
 
 ### Setup
 
 #### `.env` requirements (where applicable)
 
-Only env variable is PORT
-
+DB_URL requires a postgres DB url
 #### How to initialize/run your application (where applicable)
 
-- `npm start`
+- `node index.js`
 
 #### How to use your library (where applicable)
 
 #### Features / Routes
 
-- Feature One: Run tests?
+Dynamic API Phase 2: Perform CRUD Operations on a database
 
 #### Tests
 
 fill this in as you see fit
 - How do you run tests? npm test
 - Any tests of note? no
-- Describe any tests that you did not complete, skipped, etc. - I used 2 temporary tests in the validator and logger test files. The validator is being tested in the integration test and I am not sure how to test for a console log. I considered deleting these two files altogether but they are listed under the proposed file structure so I figure they should be there, but with nothing there they are causing fails due to no tests present.
+- Describe any tests that you did not complete, skipped, etc.
 
 #### UML
 
-![Lab-02 UML](assets/lab-02-uml.png)
+![Lab-02 UML](assets/lab-03-uml.png)
