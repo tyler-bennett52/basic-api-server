@@ -37,4 +37,8 @@ fill this in as you see fit
 
 #### UML
 
-![Lab-02 UML](assets/lab-03-uml.png)
+![Lab-03 UML](assets/lab-03-uml.png)
+
+#### Attribution
+
+Relied heavily on the template provided in the class demo to determine the structure of this server
